@@ -1,0 +1,22 @@
+{
+	"credit": "from BubbleVehicles made by BubbleFish",
+	"display": {
+		"head": {
+			"translation": [
+				0,
+				16,
+				0
+			],
+			"scale": [
+				2,
+				2,
+				2
+			],
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

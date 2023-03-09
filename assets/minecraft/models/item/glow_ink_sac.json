@@ -1,0 +1,200 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/glow_ink_sac"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse0-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse0-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse0-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse0-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse1-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse1-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse1-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks0-reverse1-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse0-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse0-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse0-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse0-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse1-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse1-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse1-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights0-breaks1-reverse1-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse0-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse0-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse0-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse0-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse1-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse1-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse1-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks0-reverse1-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse0-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse0-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse0-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse0-blinker3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse1-blinker0"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse1-blinker1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse1-blinker2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "bubblevehicles:cars/rofi/overlay/headlights1-breaks1-reverse1-blinker3"
+        }
+    ]
+}

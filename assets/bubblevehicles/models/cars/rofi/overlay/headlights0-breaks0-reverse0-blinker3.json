@@ -1,0 +1,27 @@
+{
+	"credit": "Made by BubbleFish @ BubbleVehicles data-pack",
+	"parent": "bubblevehicles:cars/overlays",
+	"texture_size": [1, 4],
+	"textures": {
+		"front_blinkers": "bubblevehicles:cars/rofi/overlay/front_blinkers3",
+		"rear_blinkers": "bubblevehicles:cars/rofi/overlay/rear_blinkers3"
+	},
+	"elements": [
+		{
+			"name": "frontBlinkers",
+			"from": [0, 1, -15.1],
+			"to": [16, 9, -15.1],
+			"faces": {
+				"north": {"uv": [2.6672, 5.33333, 13.3672, 10.66667], "texture": "#front_blinkers"}
+			}
+		},
+		{
+			"name": "rearBlinkers",
+			"from": [-3, 1, 31.1],
+			"to": [19, 9, 31.1],
+			"faces": {
+				"south": {"uv": [0, 5.3332, 16, 10.6664], "texture": "#rear_blinkers"}
+			}
+		}
+	]
+}

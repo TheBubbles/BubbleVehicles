@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#minecraft:flowers",
+        "#minecraft:banners",
+        "minecraft:air",
+        "minecraft:void_air",
+        "minecraft:cave_air",
+        "minecraft:grass",
+        "minecraft:tall_grass",
+        "minecraft:structure_void"
+    ]
+}

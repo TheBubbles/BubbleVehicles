@@ -1,0 +1,9 @@
+{
+	"credit": "Made by BubbleFish @ BubbleVehicles data-pack",
+	"parent": "bubblevehicles:cars/overlays",
+	"texture_size": [1, 4],
+	"textures": {
+		"rear": "bubblevehicles:cars/rofi/overlay/rear_lights",
+		"particle": "bubblevehicles:cars/rofi/overlay/front_lights"
+	}
+}

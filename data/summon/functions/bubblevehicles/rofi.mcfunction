@@ -1,0 +1,12 @@
+# ::: Vehicle
+summon armor_stand ~ ~ ~ {Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.vehicle", "+bv.is_car", "bv.rofi"], Marker: 1b, Small: 1b, Silent: 1b, Invulnerable: 1b, Invisible: 1b, CustomName: '"Rofi"', Passengers: [{id: "item_display", Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.display", "bv.direct_passenger", "bv.rofi"], item: {id: "firework_star", Count: 1b, tag: {CustomModelData: 0}}, width: 5.0f, height: 3.0f, item_display: "head", shadow_radius: 2.5f, Invulnerable: 1b, billboard: "fixed", Passengers: [{id: "item_display", Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.overlay", "bv.direct_passenger"], item: {id: "glow_ink_sac", Count: 1b, tag: {CustomModelData: 1}}, width: 5.0f, height: 3.0f, item_display: "head", Invulnerable: 1b, billboard: "fixed", brightness: {sky: 15, block: 15}}]}]}
+
+# ::: Seats
+summon armor_stand ~0.5 ~0.25 ~0.375 {Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat", "bv.driver_seat"], Small: 1b, Marker: 1b, Invisible: 1b, Invulnerable: 1b, Silent: 1b, Passengers: [{id: "interaction", Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat_hitbox", "bv.driver_seat"], width: 0.75f, height: 0.25f, response: 1b}]}
+summon armor_stand ~-0.5 ~0.25 ~0.375 {Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat", "bv.passenger_seat"], Small: 1b, Marker: 1b, Invisible: 1b, Invulnerable: 1b, Silent: 1b, Passengers: [{id: "interaction", Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat_hitbox", "bv.passenger_seat"], width: 0.75f, height: 0.25f, response: 1b}]}
+summon armor_stand ~0.5 ~0.25 ~-1 {Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat", "bv.passenger_seat_left"], Small: 1b, Marker: 1b, Invisible: 1b, Invulnerable: 1b, Silent: 1b, Passengers: [{id: "interaction", Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat_hitbox", "bv.passenger_seat_left"], width: 0.75f, height: 0.25f, response: 1b}]}
+summon armor_stand ~-0.5 ~0.25 ~-1 {Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat", "bv.passenger_seat_right"], Small: 1b, Marker: 1b, Invisible: 1b, Invulnerable: 1b, Silent: 1b, Passengers: [{id: "interaction", Tags: ["+bubblevehicles", "+bv.on_summon", "+bv.seat_hitbox", "bv.passenger_seat_right"], width: 0.75f, height: 0.25f, response: 1b}]}
+
+# :::
+execute as @e[type=armor_stand,tag=+bv.on_summon,limit=1] run function #bubblevehicles:vehicle/update_position
+function bubblevehicles:common/summoning/register_entities

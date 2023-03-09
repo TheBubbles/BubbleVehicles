@@ -1,0 +1,34 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "vehicle": {
+                                    "type": "minecraft:armor_stand",
+                                    "nbt": "{Tags:[\"+bv.seat\"]}"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"+bv.is_seating\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bubblevehicles:events/on_stopped_riding_seat"
+    }
+}

@@ -1,0 +1,2 @@
+execute if score @s bv+steering matches ..-31 store result entity @e[type=item_display,tag=bv.this_display,limit=1] item.tag.CustomModelData int 1 run scoreboard players add #Variant bubblevehicles 3
+execute if score @s bv+steering matches -30..-1 store result entity @e[type=item_display,tag=bv.this_display,limit=1] item.tag.CustomModelData int 1 run scoreboard players add #Variant bubblevehicles 4
